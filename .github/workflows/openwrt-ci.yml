@@ -1,25 +1,4 @@
-juespark
-/
-lede
-forked from coolsnowwolf/lede
-0
-011.4k
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-lede/.github/workflows/openwrt-ci.yml
-@juespark
-juespark Update openwrt-ci.yml
-Latest commit f59a2f4 3 days ago
- History
- 6 contributors
-@juespark@KFERMercer@AmadeusGhost@coolsnowwolf@ioioioion@fanck0605
-251 lines (225 sloc)  8.83 KB
+
   
 #
 # This is free software, lisence use MIT.
