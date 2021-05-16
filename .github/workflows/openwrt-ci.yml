@@ -54,14 +54,7 @@ jobs:
           mkdir package/luci-app-openclash
           cd package/luci-app-openclash
           git clone https://github.com/vernesong/OpenClash.git
-      - name:  编译vssr
-        run: |
-         cd package/lean
-         git clone https://github.com/jerrykuku/luci-app-vssr.git   
-      - name:  编译vssr
-        run: |
-         cd package/lean
-         git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
+
             
           # sudo mkdir -p -m 777 /mnt/openwrt/bin /mnt/openwrt/build_dir/host /mnt/openwrt/build_dir/hostpkg /mnt/openwrt/dl /mnt/openwrt/feeds /mnt/openwrt/staging_dir
           # ln -s /mnt/openwrt/bin ./bin
@@ -178,7 +171,6 @@ jobs:
           # CONFIG_PACKAGE_luci-app-wireguard=y
           # CONFIG_PACKAGE_luci-app-wrtbwmon=y
           CONFIG_PACKAGE_luci-app-openclash=y #OpenClash
-          CONFIG_PACKAGE_luci-app-vssr=y  #vssr
           EOF
           # LuCI主题:
           cat >> .config <<EOF
